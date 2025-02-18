@@ -1,0 +1,90 @@
+/* Estilo Responsivo (MOBILE) */
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .menu-mobile {
+        display: flex;
+    }
+
+    .line div h1{
+        font-size: 40px;
+    }
+
+    nav ul li {
+        display: none;
+    }
+
+    .imagem-perfil {
+        height: 250px;
+    }
+
+    h1 {
+        font-size: 15px;
+    }
+
+    h4 {
+        font-size: 17px;
+    }
+
+    .btn {
+        height: 40px;
+        width: 170px;
+    }
+
+    .container-projetos {
+        flex-wrap: wrap;
+    }
+
+    .container-projeto-content {
+        width: 320px;
+    }
+
+    .bio {
+        width: 90%;
+        display: flex;
+        text-align: left;
+    }
+
+    .txt {
+        color: rgba(0, 0, 0, 0.557);
+        font-size: 18px;
+    }
+
+    .whatsapp-flutuante {
+        display: block;
+        position: fixed;
+        bottom: 20px;
+        left: 5px;
+    }
+
+    .habilidades{
+        height: 100px;
+    }
+
+    .habilidades2{
+        height: 110px;
+    }
+
+    .icones-contato{
+        height: 50px;
+    }
+
+    .container-perfil{
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .resumo{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .resumo h4{
+        font-size: 25px;
+    }
+
+    .btn{
+        width: 250px;
+        height: 50px;
+    }
+}

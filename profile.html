@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet" href="css/styleProfile.css">
+    <link rel="stylesheet" href="css/styleMobile.css">
+    <link rel="icon" href="imagens/nathanlogo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title> Nathan | Dev V2 </title>
+</head>
+
+<body>
+    <header id="header">
+        <img src="./imagens/logo-banner.png" alt="" height="35px" class="header-logo">
+        <nav id="header">
+            <ul>
+                <li> <a href="#"> Principal </a></li>
+                <li> <a href="#projetos"> Projetos  </a></li>
+                <li> <a href="#contato"> Contato   </a></li>
+                <img src="./imagens/menu-aberto.png" alt="" class="menu-mobile" height="30px"
+                    onclick="abrirMenuMobile()" class="resume-reveal">
+            </ul>
+        </nav>
+    </header>
+
+    <a href="https://wa.me/5511963063466?text=Ol%C3%A1%2C%20me%20interessei%20pelos%20seus%20servi%C3%A7os.%20Gostaria%20de%20saber%20sobre%3F">
+        <img src="./imagens/whatsapp.png" alt="WhatsApp" height="50px" class="whatsapp-flutuante">
+    </a>
+
+    <!-- Menu lateral MOBILE -->
+    <div class="menu-lateral-mobile" id="menu-lateral-mobile">
+        <div class="align">
+            <img src="./imagens/menu-aberto.png" alt="" height="30px" class="menu-mobile-lateral" id="icone-menu"
+                onclick="fecharMenuMobile()">
+        </div>
+        <div class="container-menu-lateral-list" id="menu-list">
+            <ul>
+                <li> Principal </li>
+                <li> Projetos </li>
+                <li> Contato </li>
+            </ul>
+        </div>
+    </div>
+
+    <section class="sessao_content">
+        <div class="container-perfil">
+            <div class="container-img">
+                <img class="imagem-perfil" src="imagens/perfil-img.jpeg" alt="imagem-perfil">
+            </div>
+            <div class="resumo">
+                <h1> Oi, Eu Sou o Nathan </h1>
+                <h4> Desenvolvedor Web </h4>
+                <button class="btn">
+                    <a
+                        href="https://wa.me/5511963063466?text=Ol%C3%A1%2C%20me%20interessei%20pelos%20seus%20servi%C3%A7os.%20Gostaria%20de%20saber%20sobre%3F">
+                        Contato
+                    </a>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section class="sessao_content-2">
+        <div class="container-titulos">  
+            <h1 class="titulos">
+                Sobre mim
+            </h1>
+        </div>
+        <div class="line"></div>
+        <div class="container-sobre-mim">
+            <div class="bio">
+                <p class="txt">
+                    Olá, sou Nathan Cruz;<br><br>
+                    Especialista em desenvolvimento de landing pages focadas em resultados.<br>
+                    Minha abordagem combina design estratégico, otimização para conversão e conhecimento técnico,
+                    visando sempre superar as metas de engajamento e conversão.<br>
+                    Com experiência no desenvolvimento de páginas de captura, uso ferramentas avançadas para garantir desempenho ideal
+                    e experiência de usuário impecável.<br>
+                    Estou sempre me atualizando para entregar soluções inovadoras e eficazes.<br><br>
+
+                    Se você busca um profissional focado em resultados e alta conversão, vamos conversar!
+                    
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="sessao_content-2">
+        <div>
+            <h1 class="titulos"> Habilidades </h1>
+        </div><br>  
+        <div class="line"></div>
+
+        <section class="container-habilidades">
+            <div class="hardskils">
+                <img src="./imagens/logotipo-html.png" alt="" class="habilidades">
+                <img src="./imagens/logotipo-css.png" alt="" class="habilidades">
+                <img src="./imagens/logotipo-javascript.png" alt="" class="habilidades2">
+            </div>
+
+            <div class="hardskils">
+                <img src="./imagens/logotipo-typescript.png" alt="" class="habilidades">
+                <img src="./imagens/logotipo-nodejs.png" alt="" class="habilidades">
+                <img src="./imagens/logotipo-postgressql.png" alt="" class="habilidades">
+            </div>
+        </section>
+
+        <section class="sessao_content-2" id="projetos">
+            <div>
+                <h1 class="titulos"> Projetos </h1>
+            </div><br>
+            <!-- Este Grid de Projetos esta em Colunas" -->
+            <div class="line"></div>
+
+            <div class="container-projetos">
+                <div class="container-projetos-2">
+
+                    <div class="container-projeto-content">
+                        <img src="./imagens/banner-veterinaria.png" alt="" height="150px">
+                        <p> Projeto landing page profissional.<br>
+                            Com sessão para contato, localização e fotos.<br>
+                            Imagens meranente ilustrativas. </p><br>
+                        <button>
+                            <a href="https://veterinaria-lp.vercel.app/">
+                                Acessar
+                            </a>
+                        </button>
+                    </div>
+
+                    <div class="container-projeto-content">
+                        <img src="imagens/banner-clinica.png" alt="" height="150px">
+
+                        <p> Projeto landing page profissional.<br>
+                            Com sessão para contato, localização e fotos.<br>
+                            Imagens meranente ilustrativas. </p><br>
+                        <button>
+                            <a href="https://eunathan098.github.io/Clinica-Dr-Alexandre/">
+                                Acessar
+                            </a>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="container-projetos-2">
+                    <div class="container-projeto-content">
+                        <img src="./imagens/banner-coffecode.png" alt="" height="150px">
+                        <p> Projeto landing page profissional.<br>
+                            Com sessão para contato, localização e fotos.<br>
+                            Imagens meranente ilustrativas. </p><br>
+                        <button>
+                            <a href="https://coffecode1.vercel.app/">
+                                Acessar
+                            </a>
+                        </button>
+                    </div>
+
+                    <div class="container-projeto-content">
+                        <img src="imagens/banner-conversor.png" alt="" height="150px">
+                        <p> Projeto landing page profissional.<br>
+                            Com sessão para contato, localização e fotos.<br>
+                            Imagens meranente ilustrativas. </p><br>
+                        <button>
+                            <a href="https://eunathan098.github.io/Conversor-Dolar-Real/">
+                                  Acessar 
+                            </a>  
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="sessao_content-3" id="contato">
+            <div>
+                <h1 class="titulos"> Contato </h1>
+            </div><br>
+                <div class="line"></div>
+            <div class="container-contatos">
+                <a href="https://www.linkedin.com/in/nathan-cruz-2025b9186/">
+                    <img class="icones-contato" src="./imagens/linkedin.png" alt="Linkedin">
+                </a>
+                
+                <a href="https://wa.me/5511918267390?text=Ol%C3%A1%2C%20me%20interessei%20pelos%20seus%20servi%C3%A7os.%20Gostaria%20de%20saber%20sobre%3F">
+                    <img class="icones-contato" src="./imagens/whatsapp (3).png" alt="">
+                </a>
+            </div>
+
+            <div class="container-contatos">
+                <a href="mailto:devnathan2025@gmail.com?subject=Informações%20sobre%20os%20servi%C3%A7os&body=Ol%C3%A1%2C%20me%20interessei%20pelos%20seus%20servi%C3%A7os.%20Gostaria%20de%20saber%20mais%3F">
+                    <img class="icones-contato" src="./imagens/e-mail.png" alt="">
+                </a>
+                <a href="https://www.instagram.com/dev_nathancruz?igsh=ZzV3d2Q2NHB1aHBj&utm_source=qr">
+                    <img class="icones-contato" src="imagens/instagram.png" alt="">
+                </a>
+            </div>
+        </section>
+
+        <footer>
+            <p> Todos os direitos reservados @2024</p>
+        </footer>
+        <script src="script.js"></script>
+</body>
+
+</html>
