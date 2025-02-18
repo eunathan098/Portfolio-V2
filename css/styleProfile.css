@@ -14,6 +14,7 @@ html, body{
     width: 100%;
 }
 
+/* Cabeçalho */
 header {
     display: flex;
     width: 100vw;
@@ -44,24 +45,26 @@ h1{
     color: rgba(2, 61, 2, 0.555);
 }
 
-.menu-mobile{
-    display: none;
+h2{
+    color: rgba(0, 0, 0, 0.456);
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.container-titulos{
-    display: flex;
-    gap: 10px;
-    width: 100vw;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+h3{
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.438);
+    font-weight: 500;
 }
 
-.line{
-    height: 5px;
-    width: 50px;
-    background-color: rgba(99, 99, 250, 0.366);
+h4{
+    color: rgba(99, 99, 250, 0.366);
+    font-size: 40px;
+}
+
+p{
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.511);
 }
 
 .titulos{
@@ -69,16 +72,11 @@ h1{
     visibility: hidden;
 }
 
-h2{
-    color: rgba(0, 0, 0, 0.456);
-    font-size: 16px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-.header-sobrenome{
-    color: rgba(0, 0, 255, 0.504);
-    font-size: 16px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+/* Barra de Alinhamento azul */
+.line{
+    height: 5px;
+    width: 50px;
+    background-color: rgba(99, 99, 250, 0.366);
 }
 
 nav ul{
@@ -105,22 +103,6 @@ nav ul li a:hover{
     border-bottom: 3px solid rgba(0, 0, 255, 0.504);
 }
 
-h3{
-    font-size: 14px;
-    color: rgba(0, 0, 0, 0.438);
-    font-weight: 500;
-}
-
-h4{
-    color: rgba(99, 99, 250, 0.366);
-    font-size: 40px;
-}
-
-p{
-    font-size: 15px;
-    color: rgba(0, 0, 0, 0.511);
-}
-
 a{
     color: white;
     text-decoration: none;
@@ -130,37 +112,12 @@ a:hover{
     color:rgba(99, 99, 250, 0.366);
 }
 
+/* Icone do  WhatsApp */
 .whatsapp-flutuante{
     display: none;
 }
 
-.container-habilidades{
-    display: flex;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-
-.habilidades{
-    height: 200px;
-    margin-top: 30px;
-    transition: all 0.3s ease-in-out;
-}
-
-.habilidades:hover{
-    transform: scale(1.1);
-}
-
-.habilidades2{
-    height: 210px;
-    transition: all 0.3s ease-in-out;
-}
-
-.habilidades2:hover{
-    transform: scale(1.1);
-}
-
+/* Seção Principal */
 .sessao_content{
     display: flex;
     padding-top: 10px;
@@ -223,6 +180,7 @@ a:hover{
     transition: 0.5s;
 }
 
+/* Seção SOBRE MIM */
 .sessao_content-2{
     display: flex;
     gap: 10px;
@@ -255,14 +213,44 @@ a:hover{
     font-size: 25px;
 }
 
+
 .container-confiar{
     display: flex;
     padding: 35px;
     text-align: center;
     align-items: center;
     justify-content: center;
-
 }
+
+/* Seção HABILIDADES */
+.container-habilidades{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.habilidades{
+    height: 200px;
+    margin-top: 30px;
+    transition: all 0.3s ease-in-out;
+}
+
+.habilidades:hover{
+    transform: scale(1.1);
+}
+
+.habilidades2{
+    height: 210px;
+    transition: all 0.3s ease-in-out;
+}
+
+.habilidades2:hover{
+    transform: scale(1.1);
+}
+
+/* Seção PROJETOS */
 
 .container-projetos{
     display: flex;
@@ -315,6 +303,7 @@ button .btn a:hover{
     color: rgba(0, 0, 255, 0.504);
 }
 
+/* Seção CONTATO */
 .sessao_content-3{
     display: flex;
     gap: 10px;
@@ -336,6 +325,7 @@ button .btn a:hover{
     transform: scale(1.2);
 }
 
+/* Seção Rodapé */
 footer{
     display: flex;
     width: 100vw;
@@ -352,6 +342,7 @@ footer p{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: rgba(0, 0, 255, 0.504)e;
 }
+
 /* Responsividade MOBILE */
 
 /* Estilo para o menu lateral no mobile */
@@ -366,6 +357,21 @@ footer p{
     width: 100%;
     height: 100%;
     background-color: white;
+}
+
+/* Menu Mobile */
+.menu-mobile{
+    display: none;
+}
+
+.container-titulos{
+    display: flex;
+    gap: 10px;
+    width: 100vw;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 /* Exibe o menu quando o "menu" for aberto */
