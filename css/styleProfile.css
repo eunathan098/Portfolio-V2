@@ -247,11 +247,21 @@ a:hover{
     width: 50%;
     display: flex;
     text-align: left;
+    flex-direction: column;
 }
 
 .txt{
     color: rgba(0, 0, 0, 0.456);
     font-size: 25px;
+}
+
+.container-confiar{
+    display: flex;
+    padding: 35px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
 }
 
 .container-projetos{
